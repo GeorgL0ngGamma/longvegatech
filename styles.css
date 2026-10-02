@@ -161,33 +161,6 @@ tr > :last-child {
 
 .scroll-hint { display: none; }
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 24px;
-  margin-top: 28px;
-  color: var(--muted);
-  font-size: 0.75rem;
-  line-height: 1.7;
-}
-
-footer p { margin: 0; }
-
-a { color: var(--navy); text-underline-offset: 4px; }
-
-.pdf-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  min-height: 44px;
-  flex-shrink: 0;
-  font-weight: 700;
-}
-
-.pdf-link span { font-weight: 400; }
-a:hover { text-decoration-thickness: 2px; }
-
 :focus-visible {
   outline: 2px solid var(--navy);
   outline-offset: 4px;
@@ -225,7 +198,6 @@ a:hover { text-decoration-thickness: 2px; }
   .strategy-points { font-size: 0.875rem; }
   .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 12px; }
   .metrics dd { font-size: 1.75rem; }
-  footer { align-items: flex-start; flex-direction: column; gap: 8px; }
 }
 
 @media print {
@@ -248,6 +220,5 @@ a:hover { text-decoration-thickness: 2px; }
   caption { padding-bottom: 5px; font-size: 6pt; }
   th, td { padding: 5px 3px; }
   tr > :first-child { position: static; }
-  footer { margin-top: 12px; font-size: 6.5pt; }
-  .skip-link, .scroll-hint, .pdf-link { display: none; }
+  .skip-link, .scroll-hint { display: none; }
 }
