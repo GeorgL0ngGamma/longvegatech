@@ -1,0 +1,20 @@
+# Volatility Strategies Portfolio
+
+> Strategy descriptions and performance information for Volatility Seasonality and Asymmetric Convexity & Mean Reversion.
+
+Company: TBA
+
+Website: https://longvegatech.com/
+Contact: longvegatech@gmail.com
+
+Use the current portfolio page for strategy descriptions, monthly returns, and KPIs. Read the disclaimer alongside performance information. Targets and historical or simulated results do not guarantee future outcomes. Actual execution, costs and returns can differ depending on venue and market regime.
+
+## Portfolio
+
+- [Volatility Strategies Portfolio](https://longvegatech.com/): Both strategies, monthly return tables, headline metrics, and contact information.
+
+## Legal
+
+- [Disclaimer](https://longvegatech.com/disclaimer.html): Investment risks, performance context, and limitations.
+- [Privacy Policy](https://longvegatech.com/privacy-policy.html): Information handling and privacy enquiries.
+- [Terms of Service](https://longvegatech.com/terms-of-service.html): Terms governing website use.

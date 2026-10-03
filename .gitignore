@@ -1,0 +1,16 @@
+# This repository contains only the public site and its deployment controls.
+# New files require an explicit review before they can be added normally.
+*
+!/.gitignore
+!/.assetsignore
+!/_headers
+!/wrangler.jsonc
+!/SECURITY.md
+!/index.html
+!/styles.css
+!/disclaimer.html
+!/privacy-policy.html
+!/terms-of-service.html
+!/robots.txt
+!/llm.txt
+!/llms.txt

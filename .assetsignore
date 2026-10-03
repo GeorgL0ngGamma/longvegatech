@@ -1,0 +1,12 @@
+# Only these files may be uploaded as public Cloudflare assets.
+# Everything else, including new files and directories, is excluded by default.
+*
+!/index.html
+!/styles.css
+!/disclaimer.html
+!/privacy-policy.html
+!/terms-of-service.html
+!/robots.txt
+!/llm.txt
+!/llms.txt
+# _headers is read separately as configuration and stays excluded from assets.

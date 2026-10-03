@@ -1,0 +1,3 @@
+# Crawler policy for https://longvegatech.com/
+User-agent: *
+Allow: /
