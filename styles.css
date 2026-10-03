@@ -181,6 +181,21 @@ tr > :last-child {
 
 .contact-footer a:hover { text-decoration-thickness: 2px; }
 
+.legal-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 24px;
+}
+
+.legal-copy {
+  font-size: 0.9375rem;
+  line-height: 1.65;
+}
+
+.legal-copy p { margin: 0 0 16px; }
+.legal-copy section + section { margin-top: 28px; }
+
 :focus-visible {
   outline: 2px solid var(--navy);
   outline-offset: 4px;
@@ -215,7 +230,7 @@ tr > :last-child {
   .masthead { padding-bottom: 20px; margin-bottom: 26px; }
   .strategy-body { padding: 18px 14px; }
   .strategy + .strategy { margin-top: 28px; }
-  .strategy-points { font-size: 0.875rem; }
+  .strategy-points, .legal-copy { font-size: 0.875rem; }
   .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 12px; }
   .metrics dd { font-size: 1.75rem; }
 }
@@ -241,4 +256,7 @@ tr > :last-child {
   th, td { padding: 5px 3px; }
   tr > :first-child { position: static; }
   .skip-link, .scroll-hint { display: none; }
+  .legal-copy { font-size: 9pt; line-height: 1.4; }
+  .legal-copy h2 { break-after: avoid; }
+  .legal-copy p { orphans: 3; widows: 3; }
 }
